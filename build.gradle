@@ -6,10 +6,10 @@ repositories {
     mavenCentral()
     jcenter()
 }
-group = 'rule-configurer'
+group = 'rule.configurer'
 
-sourceCompatibility = '11'
-targetCompatibility = '11'
+sourceCompatibility = '10'
+targetCompatibility = '10'
 
 dependencies {
     // jackson
