@@ -1,3 +1,5 @@
 # rule-configurer
 
-使用JavaScript作配置规则
+[![Release](https://jitpack.io/v/cbdyzj/rule-configurer.svg)](https://jitpack.io/#cbdyzj/rule-configurer)
+
+- Use JavaScript as dynamic configuration rules
