@@ -12,6 +12,15 @@ group = 'rule.configurer'
 sourceCompatibility = '10'
 targetCompatibility = '10'
 
+task sourcesJar(type: Jar) {
+    from sourceSets.main.allSource
+    archiveClassifier.set('sources')
+}
+
+artifacts {
+    archives sourcesJar
+}
+
 dependencies {
     // jackson
     api 'com.fasterxml.jackson.core:jackson-databind:2.11.1'
